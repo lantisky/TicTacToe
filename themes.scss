@@ -1,0 +1,6 @@
+@import "~@nebular/theme/styles/theming";
+@import "~@nebular/theme/styles/themes/dark";
+
+$nb-theme: nb-register-theme((
+
+),dark, dark);
