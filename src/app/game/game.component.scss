@@ -1,0 +1,40 @@
+
+.main-container{
+  margin: 30px;
+  //display: flex;
+
+  .gameborad {
+    flex-direction: row;
+    justify-content: space-between;
+    .player-one {
+      p {
+        color: aquamarine;
+      }
+    }
+    .player-two {
+      p {
+        color: blanchedalmond;
+      }
+    }
+  }
+    .gamefield{
+      max-width: 500px;
+      .subfield{
+        border: 1px solid cornsilk;
+        cursor: pointer;
+        background-color: #d4d4f5;
+        width: 30%;
+        padding-bottom: 30%;
+        margin: 1%;
+        border-radius: 5%;
+        float: left;
+        &.player-one{
+          background: aquamarine;
+        }
+        &.player-two{
+          background: coral;
+        }
+      }
+    }
+
+}
