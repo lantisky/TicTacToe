@@ -88,6 +88,7 @@ export class Gamelogic {
 
   async checkGameEndFull(): Promise<boolean> {
     let isFull = true;
+    // Let Game Field check here
     if (this.gameField.includes(0)) {
       isFull = false;
     }
@@ -101,6 +102,7 @@ export class Gamelogic {
   }
 
   gameEnd(): void {
+    // Let game Stop here
     this.gameStatus = Gamestatus.STOP;
   }
 }
